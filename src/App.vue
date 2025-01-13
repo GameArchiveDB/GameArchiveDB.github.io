@@ -21,22 +21,24 @@ import LeftManuBar from "./components/layout/LeftManuBar.vue";
 <style scoped>
 .layout {
   display: grid;
-  grid-template-columns: 3fr 7fr;
+  grid-template-columns: 2fr 8fr;
   gap: 16px;
   min-height: 100vh;
   min-width: 100vw;
   margin: 0px;
 }
 
-/* .left-menubar {
-  width: 20vh;
-  height: 100vh;
-  float: left;
+.left-menubar {
+  background-color: blueviolet;
+  float: right;
+  height: 100%;
+  width: 100%;
 }
 
 .main-content {
-  width: 80vh;
-  height: 100vh;
-  float: right;
-} */
+  background-color: green;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
 </style>
