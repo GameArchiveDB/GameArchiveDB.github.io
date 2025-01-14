@@ -1,8 +1,9 @@
 <template>
     <div>
-        <label>하이</label>
+        <label @click="$router.push('/sims4/main')">심즈4</label>
     </div>
 </template>
+
 
 
 <style scoped>
